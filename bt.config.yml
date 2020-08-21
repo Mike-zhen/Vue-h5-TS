@@ -1,0 +1,13 @@
+# 环境
+dev:
+  VUE_APP_BASE_URL: /'项目部署网址'
+  VUE_APP_SERVE_NAME: /'api url'
+test:
+  VUE_APP_BASE_URL: /
+  VUE_APP_SERVE_NAME: /
+pre:
+  VUE_APP_BASE_URL: /
+  VUE_APP_SERVE_NAME: /
+prd:
+  VUE_APP_BASE_URL: /
+  VUE_APP_SERVE_NAME: /

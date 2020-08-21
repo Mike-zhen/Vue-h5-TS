@@ -1,0 +1,5 @@
+FROM harbor.btpoc.com/base/nginx:1.16.1
+
+RUN rm -rf /usr/share/nginx/html/*
+
+COPY dist /usr/share/nginx/html

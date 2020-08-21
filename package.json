@@ -1,0 +1,61 @@
+{
+  "name": "bt-vehicle-after-sales-h5",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "start": "cross-env NODE_ENV=dev  npm run serve",
+    "start:local": "cross-env NODE_ENV=local  npm run serve",
+    "start:test": "cross-env NODE_ENV=test npm run serve",
+    "start:pre": "cross-env NODE_ENV=pre   npm run serve ",
+    "build": "vue-cli-service build",
+    "lint": "eslint --fix --ext .ts,.vue src"
+  },
+  "dependencies": {
+    "@types/js-base64": "^2.3.1",
+    "@types/pulltorefreshjs": "^0.1.3",
+    "axios": "^0.19.2",
+    "core-js": "^3.6.4",
+    "cross-env": "^7.0.2",
+    "js-base64": "^2.5.2",
+    "js-yaml": "^3.14.0",
+    "lodash": "^4.17.15",
+    "postcss-pxtorem": "^5.1.1",
+    "pulltorefreshjs": "^0.1.20",
+    "register-service-worker": "^1.7.1",
+    "tslint-config-standard": "^9.0.0",
+    "vant": "^2.8.2",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.3",
+    "vue-property-decorator": "^8.4.1",
+    "vue-router": "^3.1.6",
+    "vue-style-loader": "^4.1.2",
+    "vue-wechat-title": "^2.0.5",
+    "vuex": "^3.1.3",
+    "weixin-jsapi": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.152",
+    "@typescript-eslint/eslint-plugin": "^3.0.1",
+    "@typescript-eslint/parser": "^3.0.1",
+    "@vue/cli-plugin-babel": "~4.3.0",
+    "@vue/cli-plugin-eslint": "~4.3.0",
+    "@vue/cli-plugin-pwa": "~4.3.0",
+    "@vue/cli-plugin-router": "~4.3.0",
+    "@vue/cli-plugin-typescript": "~4.3.0",
+    "@vue/cli-plugin-vuex": "~4.3.0",
+    "@vue/cli-service": "~4.3.0",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "eslint": "^7.1.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "ts-import-plugin": "^1.6.6",
+    "typescript": "~3.8.3",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browsers": [
+    "Android >= 4.0",
+    "iOS >= 7"
+  ]
+}
