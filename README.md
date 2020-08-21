@@ -1,7 +1,7 @@
 #bt-arale-management-h5
 
 
-阿拉蕾C端知识库H5项目
+Vue H5项目 Ts
 
 #启动项目流程
 npm install
@@ -14,7 +14,6 @@ start:pre  --pre环境
 #配置环境url变量
 
 #bt.config.yml 文件
-VUE_APP_BASE_API:前端gateway网关路径  //axios封装记得头部加server-name转发
 VUE_APP_BASE_URL：项目url
 VUE_APP_SERVE_NAME:接口请求路径
 
