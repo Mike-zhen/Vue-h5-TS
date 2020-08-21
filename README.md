@@ -1,11 +1,8 @@
 #bt-arale-management-h5
 
 
-<<<<<<< HEAD
+
 Vue TS H5项目架子
-=======
-Vue H5项目 Ts
->>>>>>> e0521b558a2159b101d50a03d0bb8f15946ddeb5
 
 #启动项目流程
 npm install
